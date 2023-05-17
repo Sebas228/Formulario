@@ -3,7 +3,7 @@
   <title>Formulario Inc.SAB</title>
 </head>
 <body>
-  <h2>Formulario de contacto</h2>
+  <h2>Formulario de contacto Inc. SAB</h2>
   <form action="procesar.php" method="POST">
     <label for="nombre">Nombre:</label>
     <input type="text" id="nombre" name="nombre" required><br><br>
@@ -15,8 +15,12 @@
     <input type="number" id="Numero celular" name="Numero celular" required><br><br>
 
     <label for="mensaje">Mensaje:</label>
-    <textarea id="mensaje" name="mensaje" required></textarea><br><br>
+    <textarea id="mensaje" name="mensaje"></textarea><br><br>
     
+    <a href="https://api.whatsapp.com/send/?phone=3142648212&text&type=phone_number&app_absent=0" target="_blank">
+      <button>Ir a WhatsApp</button>
+    </a>
+
     <input type="submit" value="Enviar">
   </form>
 </body>
